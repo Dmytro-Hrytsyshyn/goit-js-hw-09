@@ -31,7 +31,7 @@ for(const key in formDataFromLS){
 }
 }
 
-fillFormFields ()
+fillFormFields();
 
 const formFileInput = event => {
     const formValue = event.target.value;
